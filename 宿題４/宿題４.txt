@@ -1,0 +1,22 @@
+宿題4-1
+「join_data_2」に "quantity" と "item_price" をかけて新たに "price" という列を作成し、「join_dtata_3.csv」として保存してください。
+
+宿題4-2
+「join_data_3」と「transaction」の"price"の総合計が同じになることを確認してください。
+
+宿題4-3
+「join_data_3」の以下の統計量を調べてください。
+・欠損値
+・各項目の統計（ヒント：Pandas の describe メソッドを使う）
+・"payment_date"の始まりと終わり
+
+宿題4-4
+「join_data_3」の月ごとの売り上げ合計を求めてください。
+
+宿題4-5
+「join_data_3」の月別、商品別の売り上げと個数を集計してください。
+（ヒント）Pandas のメソッドの groupby と pivot_table を使う。
+
+宿題4-6
+「join_data_3」の商品別の月間売上推移の折れ線グラフを描いてください。
+（ヒント）Pandas の pivot_table と Matplotlib の pyplot を用いる。
