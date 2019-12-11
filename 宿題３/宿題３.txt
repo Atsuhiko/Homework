@@ -1,0 +1,34 @@
+宿題３：Pandas (1) DataFrame の結合
+
+データの説明です。（ネタ本のコードより）
+
+「ここでは、ある企業のECサイトでの商品の注文数の推移を分析していきます。
+データの属性を理解し、分析をするためにデータを加工した後、
+データの可視化を行うことで問題を発見していくプロセスを学びます。」
+
+宿題３－１
+
+「transaction_1」と「transaction_2」を結合（ユニオン）して、「tranaction.csv」を保存してください。
+「transaction_detail_1」と「transaction_detail_2」を結合（ジョイン）して,、「tranaction_detail.csv」を保存してください。
+それぞれ、結合前と結合後のデータフレイムの構造（項目数、行数、データ型、欠損値の有無など）を調べてください。
+
+（ヒント）Pandas 「concat」メソッドを使う。
+ 
+
+
+宿題３－２
+
+「transaction」と「transction_detail」を結合（ジョイン）して「join_data_1.csv」を保存してください。
+結合するときは、「transaction_detail」に”transaction_id”をキーとして「transaction」の"payment_date", "customer_id”を追加してください。
+結合前と結合後のデータフレイムの構造（項目数、行数、データ型、欠損値の有無など）を調べてください。
+
+（ヒント）Pandas 「merge」メソッドを使う。
+ 
+
+
+宿題３－３
+
+「join_data_1」に「customer_master」と「item_master」をそれぞれ"customer_id"と"item_id"をキーにして結合させ「join_data2.csv」を保存してください。
+結合前と結合後のデータフレイムの構造（項目数、行数、データ型、欠損値の有無など）を調べてください。
+
+（ヒント）Pandas 「merge」メソッドを使う。
