@@ -1,0 +1,24 @@
+機械学習のコードを書くための Python の基礎を学ぶ１０の宿題
+
+宿題１：関数
+
+宿題２：クラス
+
+宿題３：Pandas (1) DataFrame の結合
+
+宿題４：Pandas (2) DataFrame の操作
+
+宿題 5
+：Pandas (3) 目的変数と説明変数の DataFrame 作成
+
+宿題６：Numpy (1) 配列の操作
+	・宿題 6.5 ：Numpy ミニ演習 np.append()
+	・おまけ：リスト演習
+
+宿題７：Numpy (2) 画像の取り扱い
+
+宿題８：Pandas (4)  pandas の apply関数と lamba
+
+宿題９：Matplotlib (1) ヒストグラムと散布図
+
+宿題１０：Matplotlib (2) グラフを描く関数の作成
