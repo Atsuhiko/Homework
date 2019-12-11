@@ -1,0 +1,5 @@
+宿題９：Matplotlib (1) ヒストグラムと散布図
+
+「iris_original.csv」を読み込み、以下のグラフを描画しなさい。
+(1) 変数 a1, a2, a3, a4 のヒストグラム
+(2) a1 vs a2, a1 vs a3, a1 vs a4 の散布図
