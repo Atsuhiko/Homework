@@ -1,4 +1,7 @@
-宿題８：Pandas の apply関数を使って列ごとや行ごとに関数を適用
+宿題８：Pandas (4)  pandas の apply関数と lamba
+
+DataFrameの列ごとや行ごとへの関数の適用
+
 「iris_original.csv」を読み込み、以下の操作をしなさい。
 
 (1) 関数 apply() を使って、a1, a2, a3, a4 それぞれの合計と平均を一度で出しなさい。（列の処理）
